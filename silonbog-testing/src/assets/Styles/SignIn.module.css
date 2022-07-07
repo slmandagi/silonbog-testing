@@ -2,3 +2,35 @@
     padding-left: 180px;
     padding-top: 240px;
 }
+
+.txtWelcome{
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.txtTitle{
+    font-weight: 700;
+    font-size: 105px;
+}
+
+.txtTitleExpansion{
+    font-weight: 500;
+    font-size: 35px;
+    color: #7A7A7A;
+}
+
+@media screen and (max-width: 430px) {
+    .container{
+        padding-left: 40px;
+        padding-top: 100px;
+    }
+    .txtWelcome{
+        font-size: 30px;
+    }
+    .txtTitle{
+        font-size: 60px;
+    }
+    .txtTitleExpansion{
+        font-size: 15px;
+    }
+}
